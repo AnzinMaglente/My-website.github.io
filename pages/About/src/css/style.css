@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+header { 
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    min-height: 30px;
+    color: #FFFFFF;
+    height: 70px;
+    background-color: rgb(6, 3, 15);
+}
+
+h1 {
+    text-decoration-line: underline;
+}
+
+.main {
+    width: 95.75%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-left: 4.25%;
+}
+
+.page-title {
+    font-size: 25px;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.primary-navigation {
+    display: flex;
+    font-size: 18px;
+    margin-left: 13%;
+    margin-right: 6%;
+    background-color: rgb(6, 3, 15);
+}
+
+.secondary-navigation {
+    display: flex;
+    gap: 50px;
+    margin:auto;
+    margin-left: 32%;
+    align-items: center;
+}
+
+.secondary-navigation li, .secondary-navigation li a  {
+    text-decoration: none;
+    list-style: none;
+}
+
+.social-primary {
+    display: flex;
+    margin-left: 10.5%;
+}
+
+.social-media {
+    display: flex;
+    gap: 2rem;
+    margin:auto;
+    margin-left: 27%;
+}
+
+.social-media li, .social-media li a  {
+    text-decoration: none;
+    list-style: none;
+}
+
+a.focus:link, a.focus:visited{
+    color:grey;
+}
+
+a:link {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+} 
+
+.fa-facebook {  
+    color: white;  
+    width: 10px;
+}  
+
+.fa-github {  
+    color: white;  
+    width: 10px;
+}
+
+.fa-instagram {  
+    color: white;
+    width: 10px;  
+}
+
+.fa:hover {  
+    opacity: 0.9;  
+}
+
+.Title {
+    padding-top: 27px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.main-content {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+article {
+    width: 50%;
+    margin-left: 10%;
+}
+
+aside {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.background-1 {
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+.background-2 {
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+ul {
+    margin-left: 8%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(31, 22, 61);
+    color: white;
+}
