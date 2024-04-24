@@ -216,10 +216,23 @@ div.scroll-container img {
 }
 
 .article-1-text {
-    padding-left: 50px;
-    padding-right: 80px;
+    width: 83%;
     text-align: justify;
+    position: relative;
+    animation: slideright 3s forwards;
 }
+	
+@keyframes slideright {
+	from {
+		right:-135px;
+		opacity:0%;
+	}
+	to {
+		right:-55px;
+		opacity: 100%;
+	}
+}
+
 
 .aside-1 {
     background-color: rgb(6, 3, 15);;
@@ -238,9 +251,21 @@ div.scroll-container img {
 }
 
 .article-2-text {
-    padding-left: 80px;
-    padding-right: 50px;
+    width: 83%;
     text-align: justify;
+    position: relative;
+    animation: slideleft 3s forwards;
+}
+	
+@keyframes slideleft {
+	from {
+		padding-left:0px;
+		opacity:0%;
+	}
+	to {
+		padding-left:80px;
+		opacity: 100%;
+	}
 }
 
 .aside-2 {
@@ -252,9 +277,9 @@ div.scroll-container img {
 
 footer {
     text-align: center;
-    padding-top: 40px;
+    margin-top: 25px;
+    padding-top: 15px;
     padding-bottom: 15px;
     background-color: rgb(31, 22, 61);
     color: white;
 }
-
