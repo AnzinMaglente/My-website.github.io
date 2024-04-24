@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+::-webkit-scrollbar {
+    width: 3px;
+}
+  
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
@@ -144,7 +148,7 @@ a:active {
 }
 
 .main-content {
-    width: 100%;
+    width: 93.5%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -172,7 +176,7 @@ a:active {
 }
 
 .additional-info {
-    width: 57%;
+    width: 62%;
 }
 
 ul {
