@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    font-family: "Caslon";
+    background-color: #FCF6F5FF;
+}
+
+header { 
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    min-height: 30px;
+    color: #FFFFFF;
+    height: 70px;
+    background-color: #06030F;
+}
+
+h1 {
+    text-decoration-line: underline;
+}
+
+#modeButton-1 {
+    display: inline;
+}
+
+#modeButton-2 {
+    display: none;
+}
+
+.main {
+    width: 95.75%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-left: 4.25%;
+}
+
+.page-title {
+    font-size: 25px;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.primary-navigation {
+    display: flex;
+    font-size: 18px;
+    margin-left: 13%;
+    margin-right: 6%;
+}
+
+.secondary-navigation {
+    display: flex;
+    gap: 50px;
+    margin:auto;
+    margin-left: 32%;
+    align-items: center;
+}
+
+.secondary-navigation li, .secondary-navigation li a  {
+    text-decoration: none;
+    list-style: none;
+}
+
+.social-primary {
+    display: flex;
+    margin-left: 10.5%;
+}
+
+.social-media {
+    display: flex;
+    gap: 1.2rem;
+    margin:auto;
+    margin-left: 9%;
+}
+
+.social-media li, .social-media li a  {
+    text-decoration: none;
+    list-style: none;
+}
+
+a.focus:link, a.focus:visited{
+    color:grey;
+}
+
+a:link {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.fa {  
+    padding: 20px;  
+    text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+} 
+
+.fa-facebook {  
+    color: white;  
+    width: 10px;
+}  
+
+.fa-github {  
+    color: white;  
+    width: 10px;
+}
+
+.fa-instagram {  
+    color: white;
+    width: 10px;  
+}
+
+.fa:hover {  
+    opacity: 0.9;  
+}  
+
+.fa-moon-o {
+    color: white;
+    width: 10px;
+    cursor: pointer;
+}
+
+.fa-sun-o {
+    color: white;
+    width: 10px;
+    cursor: pointer;
+}
+
+.move {
+    cursor: pointer;
+}
+
+.Title {
+    padding-top: 27px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.body {
+    background-color: #FCF6F5FF;
+}
+
+.content {
+    width: 92.5%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 7.5%;
+    overflow: hidden;
+}
+
+p {
+    font-size: larger;
+}
+
+hr {
+    width: 93%;
+}
+
+.individual-picture img {
+    display: inline-block;
+    vertical-align:top;
+}
+
+.text {
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align:top;
+    width:45%
+}
+
+.set1game {
+    display: inline;
+}
+
+.set2game {
+    display: none;
+}
+
+.scroll-container {
+    width: 91.5%;
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+.scroll-container img {
+    padding: 10px;
+}
+
+.scroll-container::-webkit-scrollbar{
+    height: 0.6em;
+}
+
+.scroll-container::-webkit-scrollbar-track{
+    background-color: gray;
+    border-radius: 12px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb{
+    background-color: lightgray;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #06030F;
+    color: white;
+}
